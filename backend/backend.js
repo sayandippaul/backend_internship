@@ -35,7 +35,7 @@ candidate=JSON.parse(localStorage.getItem("candidate"));
     function printlist(){
         var a="";
         for (var i = 0; i < candidate.length; i++){
-            a=a+'<li>'+candidate[i]+' <input type="num" max="7" min="0" id="vote'+i+'"   value="0"></li>';
+            a=a+'<li>'+candidate[i]+' <input type="num" id="vote'+i+'"   value="0"></li>';
              }
         document.getElementById("showcandidate").innerHTML=a;
         document.getElementById("showvoter").innerHTML=" Voter Name : "+voter[nowvoter];
