@@ -21,7 +21,7 @@ function showresult() {
         id: -1
     };
 
-    for (var i = 1; i < votedetails.length; i++) {
+    for (var i = 1; i < votedetails.length-1; i++) {
         if (votedetails[i].vote > highest.vote || (votedetails[i].vote === highest.vote && votedetails[i].id > highest.id)) {
             secondHighest = highest;
             highest = {
