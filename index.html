@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="backend/setting.js"></script>
+    <link rel="stylesheet" href="/frontend/css/index.css">
+    <title>Voting App</title>
+</head>
+<body>
+    <h1>
+        Welcome To Voters System
+     </h1>
+
+    <!-- candidate number -->
+     <div class="list" id="setdetails">
+
+         <input type="number" id="canno" max="10" required placeholder=" Number Of Candidates">
+         <br>
+         <!-- voters number -->
+         <input type="number" id="votno" max="100" required placeholder=" Number Of Voters">
+         <br>
+         
+         <button onclick="makecandidate();makevoter()">Submit</button>
+
+<!-- show candidate -->
+     <div id="showcandidate">
+        
+
+     </div>
+<!-- show voter -->
+    <div id="showvoter">
+
+    </div>
+    <button style="display: none;margin:auto" id="showbutton" onclick="saveall()">Save Details</button>
+
+</div>
+
+    <div class="list" style="display: none;" id="adddetails" >
+<br>
+    <input type="text" id="newcandidate" placeholder="Enter New Candidate Name">
+    <br>
+    <button onclick="addcandidate()">Add New Candidate</button>
+    <br>
+
+    <input type="text" id="newvoter" placeholder="Enter New Voter Name">
+    <br>
+
+    <button onclick="addvoter()">Add New Voter</button>
+    <br>
+    <br>
+    <br>
+    <button  onclick="gotovotepage()">Go To The Voting Page</button>
+
+</div>
+
+
+
+
+</body>
+</html>
+<script>
+    
+</script>

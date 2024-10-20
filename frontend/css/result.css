@@ -1,0 +1,23 @@
+body{
+	/* Add some properties here */
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    background-image: url("/frontend/pictures/result.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#showresult{
+    /* Add some properties here */
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}

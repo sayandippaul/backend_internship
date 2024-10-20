@@ -1,0 +1,70 @@
+body{
+	/* Add some properties here */
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    background-image: url("/frontend/pictures/voting.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+#showcandidate{
+    /* Add some properties here */
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+#showcandidate li{
+    /* Add some properties here */
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bolder;
+    /* style: none; */
+    text-decoration: none;
+}
+#showcandidate input{
+    /* Add some properties here */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+
+}
+
+#votebutton{
+    /* Add some properties here */
+    margin-top: 40px;
+
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+#showvoter{
+    /* Add some properties here */
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
