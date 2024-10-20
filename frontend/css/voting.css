@@ -12,8 +12,8 @@ body{
 #showcandidate{
     /* Add some properties here */
     margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    
+    
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
@@ -34,6 +34,7 @@ body{
 }
 #showcandidate input{
     /* Add some properties here */
+width:auto;
     margin-top: 20px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
